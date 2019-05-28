@@ -33,6 +33,6 @@ Player_4 = Futbol(nombre="Zinedine Zidane", edad=47, goles=22, asistencias=20, e
 uno = Player_1.__dict__
 
 with open("jugadores.txt", "w") as listap:
-    listap.write(json.dumps(todos))
+    listap.write(json.dumps(uno))
 
 
